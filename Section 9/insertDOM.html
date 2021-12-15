@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <script>
+        function addParagraph(){
+            const story = document.getElementById('storyInput').value;
+            const textNode = document.createTextNode(story);
+            const newElements = document.createElement('p');
+            newElements.appendChild(textNode);
+            document.getElementById('writeStory').appendChild(newElements);
+            document.getElementById('storyInput').value = "";
+        }
+    </script>
+
+    <body>
+
+        <div>
+            <h1>The Story of Cheese</h1>
+            <textarea id = "storyInput"></textarea>
+            <button onclick = "addParagraph()"> Add </button>
+        </div>
+
+        <div id = "writeStory"></div>
+
+    </body>
+</html>
