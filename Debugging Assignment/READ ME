@@ -1,1 +1,10 @@
 3 coded assignments with errors that needed to be debugged
+
+Example 1 needed to have the while swapped, 
+
+Example 2 forgot let i = 0 
+(worked in Chrome console but not in Vs Code)
+
+Example 3 couldnt solve 
+
+2/3 points
